@@ -1,0 +1,65 @@
+:root{
+    --theme-color: #E72929;
+}
+
+#service > h1{
+    color: var(--theme-color);
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+#desk > div > h3{
+    color: var(--theme-color);
+    font-family: 'Poppins';
+}
+
+#desk > div > div > div > img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#desk > div > div > div > p{
+    text-align: justify;
+    font-family: 'Poppins';
+    line-height: 170%;
+}
+
+#mobile > div > h3{
+    color: var(--theme-color);
+    font-family: 'Poppins';
+}
+
+#mobile > div > div > div > img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#mobile > div > div > div > p{
+    text-align: justify;
+    font-family: 'Poppins';
+    line-height: 170%;
+}
+
+#desk{
+    display: block;
+}
+
+#mobile{
+    display: none;
+}
+
+
+@media all and (max-width:1200px){
+    #desk{
+        display: none;
+    }
+    
+    #mobile{
+        display: block;
+    }
+}

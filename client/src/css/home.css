@@ -1,0 +1,67 @@
+:root{
+    --theme_color:#E72929
+}
+
+#welcome{
+    background-color: rgb(237, 237, 237);
+    color: var(--theme_color);
+}
+
+#quote{
+    width: 50%;
+}
+
+
+.carf > div > div > div > h5{
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+
+
+.carf > div > div > img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carf > div > div{
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carf > div > div:hover{
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
+    background-color: var(--theme_color);
+    color: white;
+}
+
+.testbutton {
+    font-family: "Poppins";
+    color: #FFFCFC !important;
+    font-size: 18px;
+    text-shadow: 0px 0px 0px #7CACDE;
+    box-shadow: 0px 0px 0px #F90053;
+    padding: 10px 25px;
+    border-radius: 11px;
+    border: 0px ridge #FF0303;
+    background: #E72929;
+  }
+  .testbutton:hover {
+    color: #FFFFFF !important;
+    background: #FF4747;
+  }
+  
+
+@media all and (max-width:500px) {
+    #quote{
+        width: 100%;
+    }
+}
+
+@media all and (max-width:1200px){
+    #quote{
+        width: 70%;
+    }
+}

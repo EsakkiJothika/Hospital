@@ -1,0 +1,32 @@
+
+:root{
+    --theme_color:#E72929
+}
+
+.Link{
+    text-decoration: none;
+    color: var(--theme_color);
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dnav{
+    float: right;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--theme_color);
+    font-weight: bold;
+    font-size: large;
+    margin: 0px 28px;
+}
+
+
+@media all and (max-width:1300px){
+    .link{
+        margin: 0px 20px;
+    }
+}
+

@@ -1,0 +1,29 @@
+:root{
+    --theme-colour: #E72929;
+}
+
+.doct > div > div > div > div > img{
+    height: 300px;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.doct > div > div {
+    border: 2px solid #e7292984;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px -1px rgba(231, 41, 41, 0.43);
+}
+
+.doct > div > div:hover {
+    box-shadow: -1px -2px 3px 2px rgba(231, 41, 41, 0.51);
+}
+
+.doct > div > div > div > div > div > h5{
+    font-family: 'Poppins';
+    color: var(--theme-colour);
+}
+
+.doct > div > div > div > div > div > p{
+    font-family: 'Poppins';
+}

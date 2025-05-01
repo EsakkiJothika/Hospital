@@ -1,0 +1,15 @@
+#Navm{
+    display: none;
+}
+#dNav{
+    display: block;
+}
+
+@media all and (max-width:1200px){
+    #Navm{
+        display: block;
+    }
+    #dNav{
+        display: none;
+    }
+}
