@@ -27,3 +27,11 @@
 .doct > div > div > div > div > div > p{
     font-family: 'Poppins';
 }
+
+
+@media all and (max-width:550px){
+    .doct > div > div > div > div > img{
+        max-width: 100%;
+        height: auto;
+    }
+}

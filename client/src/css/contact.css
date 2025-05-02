@@ -1,0 +1,27 @@
+#cont{
+    background-image: url("../assets/images/cbg1.jpg");
+    background-size: cover;
+    height: 450px;
+}
+
+#cover{
+    background-color: #e7292975;
+    height: 450px;
+
+}
+
+#cover > div > h1{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
+#feedb > div > input{
+    height: 45px;
+}
+
+.addon  h4{
+    color: #E72929;
+}

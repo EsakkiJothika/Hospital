@@ -12,7 +12,7 @@ const Doctorpage = () => {
     <div>
         <div className="container pt-4 ">
             <h1 style={{textAlign:'center', color:"#E72929", fontWeight:"bold", fontFamily:"Poppins"}}>Our Specialists</h1>
-            <div className="row justify-content-center mt-5 doct">
+            <div className="row justify-content-center mt-4 mt-sm-5 doct">
                 <div className="col-lg-6">
                     <div className="card mb-3 ">
                     <div className="row justify-content-around p-2 g-0">

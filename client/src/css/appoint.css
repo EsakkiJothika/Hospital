@@ -1,0 +1,45 @@
+:root{
+    --theme-color:#E72929;
+}
+
+#forum > div > label{
+    font-family: 'Poppins';
+    color: var(--theme-color);
+}
+
+#forum > div > input{
+    height: 45px;
+    border: 1px solid gray;
+}
+
+#forum > div > select{
+    height: 45px;
+    border: 1px solid gray;
+}
+
+.testbutton {
+    font-family: "Poppins";
+    color: #FFFCFC !important;
+    font-size: 18px;
+    width: 100%;
+    text-shadow: 0px 0px 0px #7CACDE;
+    box-shadow: 0px 0px 0px #F90053;
+    padding: 10px 25px;
+    border-radius: 11px;
+    border: 0px ridge #FF0303;
+    background: #E72929;
+  }
+  .testbutton:hover {
+    color: #FFFFFF !important;
+    background: #FF4747;
+  }
+
+.deskbook{
+    display: block;
+}
+
+@media all and (max-width:1200px) {
+    .deskbook{
+        display: none;
+    }
+}

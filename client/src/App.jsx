@@ -8,6 +8,8 @@ import Footer from './Footer'
 import Aboutpage from './pages/Aboutpage'
 import Servicepage from './pages/Servicepage'
 import Doctorpage from './pages/Doctorpage'
+import Appointmentpage from './pages/Appointmentpage'
+import Contactpage from './pages/Contactpage'
 
 function App() {
  
@@ -27,6 +29,8 @@ function App() {
       <Route path='/about' element={<Aboutpage />}>About us</Route>
       <Route path='/service' element={<Servicepage />}>Services</Route>
       <Route path='/doctor' element={<Doctorpage />}>Doctors</Route>
+      <Route path='/appointment' element={<Appointmentpage />}>Doctors</Route>
+      <Route path='/contact' element={<Contactpage />}>Contact</Route>
     </Routes>
 
     <Footer />

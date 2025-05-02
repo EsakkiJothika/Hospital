@@ -16,22 +16,22 @@ const Navbarm = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mt-2 mb-lg-0">
                 <li className="nav-item">
-                <Link className='Link' to={'/'} >Home</Link>
+                <Link className='Link' to={'/'} ><button>Home</button></Link>
                 </li>
                 <li className="nav-item">
-                <Link className='Link' to={'/about'}>About us</Link>
+                <Link className='Link' to={'/about'}><button>About us</button></Link>
                 </li>
                 <li className="nav-item">
-                <Link className='Link' to={'/service'}>Services</Link>
+                <Link className='Link' to={'/service'}><button>Services</button></Link>
                 </li>
                 <li className="nav-item">
-                <Link className='Link' to={'/doctor'} >Doctors</Link>
+                <Link className='Link' to={'/doctor'} ><button>Doctors</button></Link>
                 </li>
                 <li className="nav-item">
-                <Link className='Link'>Get Appointment</Link>
+                <Link className='Link' to={'/appointment'}><button>Get Appointment</button></Link>
                 </li>
                 <li className="nav-item">
-                <Link className='Link'>Contact us</Link>
+                <Link className='Link'to={'/contact'}><button>Contact us</button></Link>
                 </li>
                 
             </ul>

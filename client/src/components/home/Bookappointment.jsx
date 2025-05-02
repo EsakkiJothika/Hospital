@@ -12,7 +12,7 @@ const Bookappointment = () => {
         <div className="col-lg-5 pt-4 pt-lg-0 ps-4 align-self-center ">
             <p style={{fontFamily:"Poppins", fontSize:"20px"}}>Your health is our highest priority. At <b>Harmony Care Hospital</b> , we are committed to providing compassionate care, advanced treatments, and a healing environment for you and your loved ones.</p>
             <p style={{fontFamily:"Poppins", fontSize:"20px"}}>For appointment, Please Click the button :</p>
-            <Link to={'/'}> <button className='testbutton'>Book Appointment</button> </Link>
+            <Link to={'/appointment'}> <button className='testbutton'>Book Appointment</button> </Link>
         </div>
       </div>
     </div>
