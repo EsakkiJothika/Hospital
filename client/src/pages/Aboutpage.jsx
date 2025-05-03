@@ -3,7 +3,7 @@ import accredit from "../assets/images/accrediation.jpg"
 
 const Aboutpage = () => {
   return (
-    <div>
+    <div className='pb-5'>
         <div className="container mt-4 mt-lg-5">
             <h1 style={{ textAlign: "center", color: "#E72929", fontFamily: "Poppins", fontWeight: "bold" }}>About Us</h1>
 

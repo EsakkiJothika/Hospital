@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const Bookappointment = () => {
   return (
-    <div className='mt-4 mt-sm-5'>
+    <div className='mt-4 pb-5 mt-sm-5'>
       <div className="row justify-content-center ">
         <div className="col-lg-5">
             <img src={e} alt="" className='img-fluid' style={{width:"100%", borderRadius:"10px"}}/>

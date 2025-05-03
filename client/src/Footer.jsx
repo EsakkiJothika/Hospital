@@ -7,7 +7,7 @@ import "./App.css"
 
 const Footer = () => {
   return (
-    <div className='mt-5' style={{fontFamily:"Poppins", backgroundColor:"#E72929"}}>
+    <div className='' style={{fontFamily:"Poppins", backgroundColor:"#E72929"}}>
       <div className="container px-3 px-sm-0 pb-3" style={{color:"white"}}>
         <div className="row justify-content-center pt-5">
           <div className="col-sm-5 col-lg-4 pb-3 pb-sm-0">
@@ -63,9 +63,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="row bg-light" style={{height:"80px"}}>
+      <div className="row " style={{height:"80px", backgroundColor:"rgb(222, 221, 221)"}}>
             <div className="col  align-self-center pt-3">
-              <p className="text-center" style={{color:"#E72929"}}> &copy; {new Date().getFullYear()} Harmony Care Hospital. All Rights Reserved.</p>
+              <p className="text-center" style={{color:"#E72929", fontWeight:"500"}}> &copy; {new Date().getFullYear()} Harmony Care Hospital. All Rights Reserved.</p>
             </div>
       </div>
     </div>

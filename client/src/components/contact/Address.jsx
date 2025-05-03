@@ -41,7 +41,7 @@ const Address = () => {
   }
 
   return (
-    <div className='mt-4 mt-sm-5'>
+    <div className='mt-4 mt-sm-5 pb-5'>
       <div className="container" style={{fontFamily:"Poppins"}}>
         <div className="row justify-content-evenly">
           <div className="col-sm-5 col-lg-5">

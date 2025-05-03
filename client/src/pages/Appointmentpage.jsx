@@ -47,7 +47,7 @@ const Appointmentpage = () => {
     
 
   return (
-    <div style={{backgroundColor:"rgb(237, 237, 237)"}}>
+    <div style={{backgroundColor:"rgb(237, 237, 237)"}} className='pb-4'>
       <div className="container py-4" >
         <h1 style={{fontWeight:"bold", fontFamily:"Poppins", color:"#E72929"}}>Booking Appointment</h1>
         <div className="row justify-content-evenly my-4">
@@ -99,7 +99,7 @@ const Appointmentpage = () => {
                     <div className="row mt-4">
                         <div className="col">
                             {/* <button className='testbutton' onClick={handleAppointment} data-bs-toggle="modal">Fix Appointment</button> */}
-                            <button type="submit" className='testbutton'  onClick={handleAppointment} >Fix Appointment</button>
+                            <button type="submit" className='testbutton1'  onClick={handleAppointment} >Fix Appointment</button>
                         </div>
                     </div>
                 </form>

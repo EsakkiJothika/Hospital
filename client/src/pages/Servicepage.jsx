@@ -9,7 +9,7 @@ import dermo from "../assets/images/serdermo.jpg"
 
 const Servicepage = () => {
   return (
-    <div id='service' className='container mt-4'>
+    <div id='service' className='container pb-5 mt-4'>
       <h1>Services We Provide</h1>
 
       <div id='desk' className='mt-4'>

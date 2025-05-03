@@ -10,7 +10,7 @@ import "../css/doctor.css"
 const Doctorpage = () => {
   return (
     <div>
-        <div className="container pt-4 ">
+        <div className="container pt-4 pb-5">
             <h1 style={{textAlign:'center', color:"#E72929", fontWeight:"bold", fontFamily:"Poppins"}}>Our Specialists</h1>
             <div className="row justify-content-center mt-4 mt-sm-5 doct">
                 <div className="col-lg-6">
